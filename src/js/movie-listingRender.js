@@ -88,13 +88,13 @@ export function renderMovies(userInputString, services) {
         previousButton.innerHTML = "Previous";
         previousButton.addEventListener("click", (e) => {
           e.preventDefault();
-          location.href = `../movie_listing/?searching=${newUserInput}${previousPage}`;
+          location.href = `../movie-listing/?searching=${newUserInput}${previousPage}`;
         });
         //Next button content
         nextButton.innerHTML = "Next";
         nextButton.addEventListener("click", (e) => {
           e.preventDefault();
-          location.href = `../movie_listing/?searching=${newUserInput}${nextPage}`;
+          location.href = `../movie-listing/?searching=${newUserInput}${nextPage}`;
         });
 
         pagesDiv.classList.add("page-selection");
@@ -129,8 +129,8 @@ export function toMovieListing() {
   const userInput = document.querySelector("#user-input").value;
 
   if (
-    currentPage.includes("movie_Details") ||
-    currentPage.includes("movie_listing")
+    currentPage.includes("movie-details") ||
+    currentPage.includes("movie-listing")
   ) {
     initialPath = "../";
   }
@@ -139,5 +139,5 @@ export function toMovieListing() {
     return;
   }
 
-  location.href = `${initialPath}movie_listing/?searching=${userInput.trim()}&page=1`;
+  location.href = `${initialPath}movie-listing/?searching=${userInput.trim()}&page=1`;
 }

@@ -1,5 +1,5 @@
 // This file is to display a list of movies based on user input
-import ExternalServices from "./ExternalServices";
+import ExternalServices from "./externalServices";
 import { toMovieListing, renderMovies } from "./movie-listingRender";
 import { getUrlParams, loadHeaderFooter, changeHeaderPath } from "./utils";
 
