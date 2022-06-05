@@ -1,5 +1,5 @@
 import { getUrlParams } from "./utils";
-import ExternalServices from "./ExternalServices";
+import ExternalServices from "./externalServices";
 
 class DetailsProcess {
   constructor() {
