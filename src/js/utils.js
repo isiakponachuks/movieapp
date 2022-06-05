@@ -33,8 +33,8 @@ export async function loadHeaderFooter() {
   let initialPath = "";
 
   if (
-    currentPage.includes("movie-details") ||
-    currentPage.includes("movie-listing")
+    currentPage.includes("movie_Details") ||
+    currentPage.includes("movie_listing")
   ) {
     initialPath = "../";
   }
@@ -51,8 +51,8 @@ export function changeHeaderPath() {
   const currentPage = document.URL;
 
   if (
-    currentPage.includes("movie-details") ||
-    currentPage.includes("movie-listing")
+    currentPage.includes("movie_Details") ||
+    currentPage.includes("movie_listing")
   ) {
     const logoLink = document.querySelector("#logo-link");
     const logoImg = document.querySelector("#logo-img");
