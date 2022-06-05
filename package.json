@@ -1,7 +1,7 @@
 {
-  "name": "outside",
+  "name": "movieapp",
   "version": "1.0.0",
-  "description": "Boilerplate for WDD 330 SleepOutside project",
+  "description": "Boilerplate for Movie App project",
   "main": "main.js",
   "scripts": {
     "start": "snowpack dev",
@@ -14,7 +14,7 @@
   "author": "Shane Thompson",
   "license": "ISC",
   "devDependencies": {
-    "@babel/cli": "^7.12.8",
+    "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
     "@snowpack/plugin-sass": "^1.1.2",
