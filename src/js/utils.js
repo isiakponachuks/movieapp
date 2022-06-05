@@ -51,7 +51,7 @@ export function changeHeaderPath() {
   const currentPage = document.URL;
 
   if (
-    currentPage.includes("movie-Details") ||
+    currentPage.includes("movie-details") ||
     currentPage.includes("movie-listing")
   ) {
     const logoLink = document.querySelector("#logo-link");
